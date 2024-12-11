@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BookFinder</string>
+    <string name="place_Holder_Search_Bar">buscar</string>
+</resources>

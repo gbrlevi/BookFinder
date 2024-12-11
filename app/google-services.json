@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "875532978785",
+    "project_id": "bookfinder-1ddb6",
+    "storage_bucket": "bookfinder-1ddb6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875532978785:android:45e958710a1d607b3cb820",
+        "android_client_info": {
+          "package_name": "com.example.BookFinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875532978785-keo67i3oo4npvuqde8f0fha01dpfnfdi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.BookFinder",
+            "certificate_hash": "42056de31c1419d2b28f66e5f632752aeda0aa53"
+          }
+        },
+        {
+          "client_id": "875532978785-mb2kmbolqn61m68u73m07ikr8avlig57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.BookFinder",
+            "certificate_hash": "3b2abc54a79b027ec3c55d18f866d304f23c982e"
+          }
+        },
+        {
+          "client_id": "875532978785-94hh42vaqj3b1s0vht0ujdmcvkcftrkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "put your api key here"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875532978785-94hh42vaqj3b1s0vht0ujdmcvkcftrkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

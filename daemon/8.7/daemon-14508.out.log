@@ -1,0 +1,687 @@
+2024-11-03T11:30:02.820-0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [--add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, -Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=BR, -Duser.language=pt, -Duser.variant]
+2024-11-03T11:30:04.244-0300 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2024-11-03T11:30:04.267-0300 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=a2306c7a-d15d-4bcb-a2a9-aec92d552f39,javaHome=D:\androidStudio\jbr,daemonRegistryDir=D:\BookFinder\daemon,pid=14508,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=pt,-Duser.variant]
+2024-11-03T11:30:04.999-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2024-11-03T11:30:05.000-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2024-11-03T11:30:05.001-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2024-11-03T11:30:05.001-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2024-11-03T11:30:05.002-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2024-11-03T11:30:05.003-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.003-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2024-11-03T11:30:05.004-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.005-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2024-11-03T11:30:05.006-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.006-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2024-11-03T11:30:05.007-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.008-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2024-11-03T11:30:05.009-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.009-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2024-11-03T11:30:05.011-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.011-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller
+2024-11-03T11:30:05.012-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.012-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.1.106
+2024-11-03T11:30:05.012-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:de87:47f7:49b4:acf9%eth1
+2024-11-03T11:30:05.013-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2024-11-03T11:30:05.014-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.014-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2024-11-03T11:30:05.015-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.015-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2024-11-03T11:30:05.017-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.017-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2024-11-03T11:30:05.018-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.018-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2024-11-03T11:30:05.020-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.020-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2024-11-03T11:30:05.021-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.022-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+2024-11-03T11:30:05.024-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.024-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000
+2024-11-03T11:30:05.025-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.025-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-11-03T11:30:05.027-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.027-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2024-11-03T11:30:05.028-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.028-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2024-11-03T11:30:05.029-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.029-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2024-11-03T11:30:05.031-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.031-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2024-11-03T11:30:05.032-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.032-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2024-11-03T11:30:05.033-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.034-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2024-11-03T11:30:05.035-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-11-03T11:30:05.040-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]].
+2024-11-03T11:30:05.161-0300 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sun Nov 03 11:30:05 BRT 2024, with address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:30:05.161-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:30:05.161-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=a2306c7a-d15d-4bcb-a2a9-aec92d552f39,javaHome=D:\androidStudio\jbr,daemonRegistryDir=D:\BookFinder\daemon,pid=14508,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=pt,-Duser.variant]
+2024-11-03T11:30:05.162-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=a2306c7a-d15d-4bcb-a2a9-aec92d552f39,javaHome=D:\androidStudio\jbr,daemonRegistryDir=D:\BookFinder\daemon,pid=14508,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=pt,-Duser.variant]
+2024-11-03T11:30:05.313-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:30:05.317-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:30:05.322-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:30:05.322-0300 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2024-11-03T11:30:05.323-0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2024-11-03T11:30:05.335-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:53955 to /127.0.0.1:53954.
+2024-11-03T11:30:05.369-0300 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2024-11-03T11:30:05.370-0300 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2024-11-03T11:30:05.371-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:30:08.061-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received class org.gradle.launcher.daemon.protocol.Build
+2024-11-03T11:30:08.061-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received non-IO message from client: Build{id=6bbfaa5a-fab4-454c-a55f-4197550a9e5a, currentDir=D:\BookFinder}
+2024-11-03T11:30:08.061-0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=6bbfaa5a-fab4-454c-a55f-4197550a9e5a, currentDir=D:\BookFinder}.
+2024-11-03T11:30:08.062-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=6bbfaa5a-fab4-454c-a55f-4197550a9e5a, currentDir=D:\BookFinder} with connection: socket connection from /127.0.0.1:53954 to /127.0.0.1:53955.
+2024-11-03T11:30:08.064-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=6bbfaa5a-fab4-454c-a55f-4197550a9e5a, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:53955] after 0.0 minutes of idle
+2024-11-03T11:30:08.064-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:30:08.065-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:30:08.066-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:30:08.066-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:30:08.067-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:30:08.068-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-11-03T11:30:08.068-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:30:08.068-0300 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=6bbfaa5a-fab4-454c-a55f-4197550a9e5a, currentDir=D:\BookFinder}. Dispatching build started information...
+2024-11-03T11:30:08.068-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 32: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@1bd5bc57
+2024-11-03T11:30:08.069-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-11-03T11:30:08.070-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@75ff04c9
+2024-11-03T11:30:08.070-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, ChocolateyLastPathUpdate, PROCESSOR_LEVEL, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ChocolateyInstall, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, DXSDK_DIR, OneDriveConsumer, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2024-11-03T11:30:08.182-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-11-03T11:30:08.182-0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 14508). The daemon log file: D:\BookFinder\daemon\8.7\daemon-14508.out.log
+2024-11-03T11:30:08.238-0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 2 GiB]
+2024-11-03T11:30:08.295-0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2024-11-03T11:30:08.295-0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2024-11-03T11:30:08.329-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-11-03T11:30:08.329-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a2306c7a-d15d-4bcb-a2a9-aec92d552f39,javaHome=D:\androidStudio\jbr,daemonRegistryDir=D:\BookFinder\daemon,pid=14508,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=pt,-Duser.variant]
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/BookList.kt:7:16 Parameter 'navController' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/DataSource.kt:22:37 Parameter 'e' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:458:25 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:553:5 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:574:61 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:679:23 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:808:9 Variable 'likes' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:811:9 Variable 'isLiked' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:849:35 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:972:17 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1048:68 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1061:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1086:31 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1180:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1196:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1241:17 'Divider(Modifier = ..., Dp = ..., Color = ...): Unit' is deprecated. Renamed to HorizontalDivider
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1247:17 'Divider(Modifier = ..., Dp = ..., Color = ...): Unit' is deprecated. Renamed to HorizontalDivider
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1328:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1350:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1372:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1395:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1512:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1534:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1554:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1578:27 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1640:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.7/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 5m 2s
+35 actionable tasks: 7 executed, 28 up-to-date
+2024-11-03T11:33:54.365-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2024-11-03T11:33:54.377-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:33:54.378-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=6bbfaa5a-fab4-454c-a55f-4197550a9e5a, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:53955]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@49dc43c5 with state Busy
+2024-11-03T11:33:54.378-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=6bbfaa5a-fab4-454c-a55f-4197550a9e5a, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:53955]
+2024-11-03T11:33:54.378-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-11-03T11:33:54.378-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:33:54.378-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:33:54.379-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:33:54.380-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:33:54.381-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:33:54.381-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:33:54.381-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@4fcc8bc4]
+2024-11-03T11:33:54.381-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@4fcc8bc4]
+2024-11-03T11:33:54.382-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received class org.gradle.launcher.daemon.protocol.Finished
+2024-11-03T11:33:54.382-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@6a9b1136
+2024-11-03T11:33:54.383-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-11-03T11:33:54.383-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received null
+2024-11-03T11:33:54.383-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=6bbfaa5a-fab4-454c-a55f-4197550a9e5a, currentDir=D:\BookFinder}
+2024-11-03T11:33:54.383-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild] Cleaning virtual file system after build finished
+2024-11-03T11:33:54.383-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@6a9b1136
+2024-11-03T11:33:54.383-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received end-of-input from client.
+2024-11-03T11:33:54.384-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: stopping connection
+2024-11-03T11:33:54.385-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: stopping connection
+2024-11-03T11:33:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:33:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:33:55.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:33:55.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:33:55.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:33:55.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:05.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:05.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:05.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:05.380-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:05.381-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:05.384-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:05.387-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:05.389-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:05.391-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:15.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:15.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:15.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:15.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:15.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:15.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:15.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:15.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:15.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:25.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:25.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:25.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:25.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:25.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:25.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:35.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:35.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:35.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:45.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:45.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:45.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:45.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:45.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:45.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:45.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:34:45.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:45.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:46.316-0300 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Handling VFS change CREATED D:\BookFinder\app\src\main\java\com\example\BookFinder\MainActivity.kt~
+2024-11-03T11:34:46.317-0300 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Handling VFS change MODIFIED D:\BookFinder\app\src\main\java\com\example\BookFinder\MainActivity.kt
+2024-11-03T11:34:46.339-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54104 to /127.0.0.1:53954.
+2024-11-03T11:34:46.344-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 267: received class org.gradle.launcher.daemon.protocol.Build
+2024-11-03T11:34:46.344-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 267: Received non-IO message from client: Build{id=31600697-50ac-49b6-b186-844f719b311f, currentDir=D:\BookFinder}
+2024-11-03T11:34:46.344-0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=31600697-50ac-49b6-b186-844f719b311f, currentDir=D:\BookFinder}.
+2024-11-03T11:34:46.344-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=31600697-50ac-49b6-b186-844f719b311f, currentDir=D:\BookFinder} with connection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54104.
+2024-11-03T11:34:46.345-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=31600697-50ac-49b6-b186-844f719b311f, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54104] after 0.0 minutes of idle
+2024-11-03T11:34:46.345-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:34:46.345-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:34:46.346-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:34:46.346-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:46.347-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:46.348-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-11-03T11:34:46.348-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:34:46.348-0300 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=31600697-50ac-49b6-b186-844f719b311f, currentDir=D:\BookFinder}. Dispatching build started information...
+2024-11-03T11:34:46.348-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 32: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@54550a3
+2024-11-03T11:34:46.349-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, ChocolateyLastPathUpdate, PROCESSOR_LEVEL, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ChocolateyInstall, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, DXSDK_DIR, OneDriveConsumer, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2024-11-03T11:34:46.349-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 267: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-11-03T11:34:46.349-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 267: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@2f3bf7fc
+2024-11-03T11:34:46.350-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-11-03T11:34:46.350-0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 14508). The daemon log file: D:\BookFinder\daemon\8.7\daemon-14508.out.log
+2024-11-03T11:34:46.367-0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 2nd build in daemon [uptime: 4 mins 42.785 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+2024-11-03T11:34:46.367-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-11-03T11:34:46.368-0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2024-11-03T11:34:46.368-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a2306c7a-d15d-4bcb-a2a9-aec92d552f39,javaHome=D:\androidStudio\jbr,daemonRegistryDir=D:\BookFinder\daemon,pid=14508,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=pt,-Duser.variant]
+2024-11-03T11:34:46.368-0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:457:25 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:552:5 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:573:61 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:678:23 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:746:31 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:804:9 Variable 'likes' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:807:9 Variable 'isLiked' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:845:35 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:968:17 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1044:68 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1057:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1082:31 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1176:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1192:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1237:17 'Divider(Modifier = ..., Dp = ..., Color = ...): Unit' is deprecated. Renamed to HorizontalDivider
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1243:17 'Divider(Modifier = ..., Dp = ..., Color = ...): Unit' is deprecated. Renamed to HorizontalDivider
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1324:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1346:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1368:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1391:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1508:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1530:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1550:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1574:27 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1636:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.7/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11s
+35 actionable tasks: 4 executed, 31 up-to-date
+2024-11-03T11:34:57.655-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2024-11-03T11:34:57.667-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:34:57.668-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=31600697-50ac-49b6-b186-844f719b311f, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54104]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@49dc43c5 with state Busy
+2024-11-03T11:34:57.668-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=31600697-50ac-49b6-b186-844f719b311f, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54104]
+2024-11-03T11:34:57.668-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-11-03T11:34:57.668-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:34:57.668-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:34:57.670-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:34:57.670-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:34:57.672-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:34:57.673-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@7995c0be]
+2024-11-03T11:34:57.673-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:34:57.673-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@7995c0be]
+2024-11-03T11:34:57.674-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 267: received class org.gradle.launcher.daemon.protocol.Finished
+2024-11-03T11:34:57.674-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild] Cleaning virtual file system after build finished
+2024-11-03T11:34:57.674-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=31600697-50ac-49b6-b186-844f719b311f, currentDir=D:\BookFinder}
+2024-11-03T11:34:57.674-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 267: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@21fc1c6b
+2024-11-03T11:34:57.675-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@21fc1c6b
+2024-11-03T11:34:57.675-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-11-03T11:34:57.675-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: stopping connection
+2024-11-03T11:34:57.675-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 267: received null
+2024-11-03T11:34:57.676-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 267: Received end-of-input from client.
+2024-11-03T11:34:57.676-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: stopping connection
+2024-11-03T11:34:57.749-0300 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Handling VFS change CREATED D:\BookFinder\app\src\main\java\com\example\BookFinder\MainActivity.kt~
+2024-11-03T11:34:57.753-0300 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Handling VFS change MODIFIED D:\BookFinder\app\src\main\java\com\example\BookFinder\MainActivity.kt
+2024-11-03T11:35:00.650-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54125 to /127.0.0.1:53954.
+2024-11-03T11:35:00.654-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 382: received class org.gradle.launcher.daemon.protocol.Build
+2024-11-03T11:35:00.654-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 382: Received non-IO message from client: Build{id=ae5ecba8-ed18-49a5-9cd9-b3139d9d1bca, currentDir=D:\BookFinder}
+2024-11-03T11:35:00.654-0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=ae5ecba8-ed18-49a5-9cd9-b3139d9d1bca, currentDir=D:\BookFinder}.
+2024-11-03T11:35:00.654-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=ae5ecba8-ed18-49a5-9cd9-b3139d9d1bca, currentDir=D:\BookFinder} with connection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54125.
+2024-11-03T11:35:00.654-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=ae5ecba8-ed18-49a5-9cd9-b3139d9d1bca, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54125] after 0.0 minutes of idle
+2024-11-03T11:35:00.654-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:35:00.654-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:35:00.655-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:35:00.656-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:00.657-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:00.657-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-11-03T11:35:00.657-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:35:00.657-0300 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=ae5ecba8-ed18-49a5-9cd9-b3139d9d1bca, currentDir=D:\BookFinder}. Dispatching build started information...
+2024-11-03T11:35:00.657-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 32: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@1a82d9da
+2024-11-03T11:35:00.658-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, ChocolateyLastPathUpdate, PROCESSOR_LEVEL, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ChocolateyInstall, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, DXSDK_DIR, OneDriveConsumer, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2024-11-03T11:35:00.658-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 382: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-11-03T11:35:00.659-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 382: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@226db0e9
+2024-11-03T11:35:00.659-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-11-03T11:35:00.659-0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 14508). The daemon log file: D:\BookFinder\daemon\8.7\daemon-14508.out.log
+2024-11-03T11:35:00.660-0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 3rd build in daemon [uptime: 4 mins 57.094 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+2024-11-03T11:35:00.660-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-11-03T11:35:00.660-0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2024-11-03T11:35:00.660-0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2024-11-03T11:35:00.660-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a2306c7a-d15d-4bcb-a2a9-aec92d552f39,javaHome=D:\androidStudio\jbr,daemonRegistryDir=D:\BookFinder\daemon,pid=14508,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=pt,-Duser.variant]
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:458:25 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:553:5 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:574:61 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:679:23 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:805:9 Variable 'likes' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:808:9 Variable 'isLiked' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:846:35 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:969:17 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1045:68 Parameter 'modifier' is never used
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1058:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1083:31 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1177:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1193:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1238:17 'Divider(Modifier = ..., Dp = ..., Color = ...): Unit' is deprecated. Renamed to HorizontalDivider
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1244:17 'Divider(Modifier = ..., Dp = ..., Color = ...): Unit' is deprecated. Renamed to HorizontalDivider
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1325:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1347:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1369:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1392:44 'textFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `TextFieldDefaults.colors` with additional parameters to controlcontainer color based on state.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1509:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1531:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1551:24 Parameter 'index' is never used, could be renamed to _
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1575:27 'rememberImagePainter(Any?): AsyncImagePainter' is deprecated. ImagePainter has been renamed to AsyncImagePainter.
+w: file:///D:/BookFinder/app/src/main/java/com/example/BookFinder/MainActivity.kt:1637:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.7/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 10s
+35 actionable tasks: 4 executed, 31 up-to-date
+2024-11-03T11:35:11.527-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2024-11-03T11:35:11.538-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=ae5ecba8-ed18-49a5-9cd9-b3139d9d1bca, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54125]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@49dc43c5 with state Busy
+2024-11-03T11:35:11.539-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=ae5ecba8-ed18-49a5-9cd9-b3139d9d1bca, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54125]
+2024-11-03T11:35:11.539-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-11-03T11:35:11.539-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:35:11.539-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:35:11.540-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:35:11.540-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:11.541-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:11.541-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@3de3297a]
+2024-11-03T11:35:11.541-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:35:11.542-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@3de3297a]
+2024-11-03T11:35:11.542-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild] Cleaning virtual file system after build finished
+2024-11-03T11:35:11.542-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=ae5ecba8-ed18-49a5-9cd9-b3139d9d1bca, currentDir=D:\BookFinder}
+2024-11-03T11:35:11.542-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 382: received class org.gradle.launcher.daemon.protocol.Finished
+2024-11-03T11:35:11.542-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 382: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@2caa4ad4
+2024-11-03T11:35:11.542-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@2caa4ad4
+2024-11-03T11:35:11.543-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-11-03T11:35:11.543-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: stopping connection
+2024-11-03T11:35:11.543-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 382: received null
+2024-11-03T11:35:11.543-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 382: Received end-of-input from client.
+2024-11-03T11:35:11.543-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: stopping connection
+2024-11-03T11:35:15.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:16.440-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:16.440-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:16.442-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:16.451-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:16.451-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:17.606-0300 [DEBUG] [sun.rmi.transport.tcp] RMI Scheduler(0): close connection, socket: Socket[addr=localhost/127.0.0.1,port=17811,localport=54105]
+2024-11-03T11:35:17.606-0300 [DEBUG] [sun.rmi.transport.tcp] RMI Scheduler(0): close connection, socket: Socket[addr=localhost/127.0.0.1,port=17811,localport=54114]
+2024-11-03T11:35:18.419-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(6)-127.0.0.1: (port 54025) connection closed
+2024-11-03T11:35:18.420-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(6)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=54129,localport=54025]
+2024-11-03T11:35:18.420-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(6)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=54129,localport=54025]
+2024-11-03T11:35:25.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:25.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:25.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:25.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:25.377-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:25.378-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:25.378-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:31.837-0300 [DEBUG] [sun.rmi.transport.tcp] RMI Scheduler(0): close connection, socket: Socket[addr=localhost/127.0.0.1,port=17811,localport=54135]
+2024-11-03T11:35:31.851-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(4)-127.0.0.1: (port 54025) connection closed
+2024-11-03T11:35:31.851-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(4)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=54128,localport=54025]
+2024-11-03T11:35:31.852-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(4)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=54128,localport=54025]
+2024-11-03T11:35:32.628-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(5)-127.0.0.1: (port 54025) connection closed
+2024-11-03T11:35:32.628-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(5)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=54130,localport=54025]
+2024-11-03T11:35:32.628-0300 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(5)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=54130,localport=54025]
+2024-11-03T11:35:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:35.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:35.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:35.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:35.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:35.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:35.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:45.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:45.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:45.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:45.377-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:45.377-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:45.378-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:45.380-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:45.380-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:45.380-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:55.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:55.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:55.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:55.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:35:55.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:35:55.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:35:55.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:05.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:05.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:05.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:05.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:05.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:05.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:05.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:05.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:05.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:15.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:15.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:15.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:15.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:15.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:15.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:15.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:15.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:15.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:25.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:25.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:25.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:25.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:25.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:25.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:35.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:35.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:35.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:45.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:45.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:45.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:45.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:45.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:45.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:45.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:45.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:45.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:55.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:55.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:55.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:36:55.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:36:55.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:36:55.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:04.878-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54256 to /127.0.0.1:53954.
+2024-11-03T11:37:04.882-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 498: received class org.gradle.launcher.daemon.protocol.Build
+2024-11-03T11:37:04.882-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 498: Received non-IO message from client: Build{id=7080aa9a-c582-4519-9f8d-d74e7206cd33, currentDir=D:\BookFinder}
+2024-11-03T11:37:04.882-0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=7080aa9a-c582-4519-9f8d-d74e7206cd33, currentDir=D:\BookFinder}.
+2024-11-03T11:37:04.882-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=7080aa9a-c582-4519-9f8d-d74e7206cd33, currentDir=D:\BookFinder} with connection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54256.
+2024-11-03T11:37:04.882-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=7080aa9a-c582-4519-9f8d-d74e7206cd33, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54256] after 1.0 minutes of idle
+2024-11-03T11:37:04.882-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:37:04.882-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:37:04.883-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:37:04.884-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:04.884-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:04.885-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-11-03T11:37:04.885-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:37:04.885-0300 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=7080aa9a-c582-4519-9f8d-d74e7206cd33, currentDir=D:\BookFinder}. Dispatching build started information...
+2024-11-03T11:37:04.885-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 500: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@23f7d3ec
+2024-11-03T11:37:04.886-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, ChocolateyLastPathUpdate, PROCESSOR_LEVEL, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, SESSIONNAME, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ChocolateyInstall, ProgramFiles(x86), CommonProgramFiles, Path, FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OS, DXSDK_DIR, OneDriveConsumer, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS, =::, IDEA_INITIAL_DIRECTORY]
+2024-11-03T11:37:04.886-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 498: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-11-03T11:37:04.886-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 498: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@d7fcb7b
+2024-11-03T11:37:04.887-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-11-03T11:37:04.887-0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 14508). The daemon log file: D:\BookFinder\daemon\8.7\daemon-14508.out.log
+2024-11-03T11:37:04.887-0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 4th build in daemon [uptime: 7 mins 1.321 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+2024-11-03T11:37:04.887-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-11-03T11:37:04.887-0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2024-11-03T11:37:04.888-0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2024-11-03T11:37:04.888-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a2306c7a-d15d-4bcb-a2a9-aec92d552f39,javaHome=D:\androidStudio\jbr,daemonRegistryDir=D:\BookFinder\daemon,pid=14508,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=pt,-Duser.variant]
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.7/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1s
+35 actionable tasks: 1 executed, 34 up-to-date
+2024-11-03T11:37:06.615-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2024-11-03T11:37:06.625-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:37:06.625-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=7080aa9a-c582-4519-9f8d-d74e7206cd33, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54256]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@49dc43c5 with state Busy
+2024-11-03T11:37:06.625-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=7080aa9a-c582-4519-9f8d-d74e7206cd33, currentDir=D:\BookFinder}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54256]
+2024-11-03T11:37:06.625-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-11-03T11:37:06.625-0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:37:06.625-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:37:06.626-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:37:06.626-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:06.627-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:06.627-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@731e6b4f]
+2024-11-03T11:37:06.627-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-11-03T11:37:06.628-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 497: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@731e6b4f]
+2024-11-03T11:37:06.628-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=7080aa9a-c582-4519-9f8d-d74e7206cd33, currentDir=D:\BookFinder}
+2024-11-03T11:37:06.628-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 498: received class org.gradle.launcher.daemon.protocol.Finished
+2024-11-03T11:37:06.628-0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild] Cleaning virtual file system after build finished
+2024-11-03T11:37:06.628-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 498: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@3b834a4
+2024-11-03T11:37:06.629-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@3b834a4
+2024-11-03T11:37:06.629-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-11-03T11:37:06.629-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 497: stopping connection
+2024-11-03T11:37:06.629-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 498: received null
+2024-11-03T11:37:06.629-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 498: Received end-of-input from client.
+2024-11-03T11:37:06.686-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 497: stopping connection
+2024-11-03T11:37:15.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:15.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:15.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:15.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:15.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:15.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:25.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:25.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:25.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:25.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:25.377-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:25.378-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:25.379-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:25.379-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:35.371-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:35.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:35.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:35.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:35.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:35.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:35.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:45.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:45.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:45.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:45.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:45.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:45.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:45.377-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:45.377-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:45.378-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:55.372-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:55.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:55.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:55.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:55.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:37:55.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:37:55.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:37:55.377-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:38:05.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:38:05.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:38:05.373-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:38:05.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:38:05.374-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:38:05.375-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:38:05.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-11-03T11:38:05.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:38:05.376-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:38:06.764-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54318 to /127.0.0.1:53954.
+2024-11-03T11:38:06.767-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:54319 to /127.0.0.1:53954.
+2024-11-03T11:38:06.769-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 598: received class org.gradle.launcher.daemon.protocol.StopWhenIdle
+2024-11-03T11:38:06.769-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 598: Received non-IO message from client: StopWhenIdle[id=bf9070a6-6918-4ae4-8532-5b613e694dab]
+2024-11-03T11:38:06.769-0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: StopWhenIdle[id=bf9070a6-6918-4ae4-8532-5b613e694dab].
+2024-11-03T11:38:06.769-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: StopWhenIdle[id=bf9070a6-6918-4ae4-8532-5b613e694dab] with connection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54318.
+2024-11-03T11:38:06.769-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 600: received class org.gradle.launcher.daemon.protocol.StopWhenIdle
+2024-11-03T11:38:06.769-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 600: Received non-IO message from client: StopWhenIdle[id=e6e9aa49-c30c-4af9-8890-ba46258c3608]
+2024-11-03T11:38:06.769-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Storing daemon stop event: stop command received
+2024-11-03T11:38:06.770-0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: StopWhenIdle[id=e6e9aa49-c30c-4af9-8890-ba46258c3608].
+2024-11-03T11:38:06.770-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: StopWhenIdle[id=e6e9aa49-c30c-4af9-8890-ba46258c3608] with connection: socket connection from /127.0.0.1:53954 to /127.0.0.1:54319.
+2024-11-03T11:38:06.770-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon stop event with timestamp 1730644686770
+2024-11-03T11:38:06.771-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:38:06.772-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:38:06.773-0300 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build stop command received
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to stop command received. The daemon is running a build: false
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 597: dispatching Success[value=null]
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Storing daemon stop event: stop command received
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: StopWhenIdle[id=bf9070a6-6918-4ae4-8532-5b613e694dab]
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon stop event with timestamp 1730644686773
+2024-11-03T11:38:06.773-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 598: received class org.gradle.launcher.daemon.protocol.Finished
+2024-11-03T11:38:06.773-0300 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 598: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@18c6f488
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@18c6f488
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 598: received null
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 597: stopping connection
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 598: Received end-of-input from client.
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:38:06.774-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 597: stopping connection
+2024-11-03T11:38:06.775-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:38:06.776-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:38:06.776-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 599: dispatching Success[value=null]
+2024-11-03T11:38:06.776-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:38:06.776-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: StopWhenIdle[id=e6e9aa49-c30c-4af9-8890-ba46258c3608]
+2024-11-03T11:38:06.776-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 600: received class org.gradle.launcher.daemon.protocol.Finished
+2024-11-03T11:38:06.776-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 600: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@374c6780
+2024-11-03T11:38:06.776-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@374c6780
+2024-11-03T11:38:06.776-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 599: stopping connection
+2024-11-03T11:38:06.777-0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-11-03T11:38:06.777-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 600: received null
+2024-11-03T11:38:06.777-0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 600: Received end-of-input from client.
+2024-11-03T11:38:06.777-0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 599: stopping connection
+2024-11-03T11:38:06.777-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:38:06.778-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:38:06.779-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-11-03T11:38:06.779-0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2024-11-03T11:38:06.790-0300 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (D:\BookFinder\caches\jars-9) has last been fully cleaned up 42 hours ago
+2024-11-03T11:38:06.967-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] jars (D:\BookFinder\caches\jars-9) cleanup deleted 0 files/directories.
+2024-11-03T11:38:06.967-0300 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] jars (D:\BookFinder\caches\jars-9) removing files not accessed on or after Sun Oct 27 11:37:05 BRT 2024.
+2024-11-03T11:38:06.970-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] jars (D:\BookFinder\caches\jars-9) cleanup deleted 0 files/directories.
+2024-11-03T11:38:06.970-0300 [INFO] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (D:\BookFinder\caches\jars-9) cleaned up in 0.18 secs.
+2024-11-03T11:38:06.971-0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache jars (D:\BookFinder\caches\jars-9) was closed 0 times.
+2024-11-03T11:38:06.971-0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file content cache (D:\BookFinder\caches\8.7\fileContent)
+2024-11-03T11:38:06.971-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file content cache (D:\BookFinder\caches\8.7\fileContent).
+2024-11-03T11:38:06.971-0300 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Closing VFS, dropping state
+2024-11-03T11:38:06.972-0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Generated Gradle JARs cache (D:\BookFinder\caches\8.7\generated-gradle-jars)
+2024-11-03T11:38:06.972-0300 [DEBUG] [org.gradle.internal.watch.registry.impl.DefaultFileWatcherRegistry] Finished listening to file system change events
+2024-11-03T11:38:06.972-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Generated Gradle JARs cache (D:\BookFinder\caches\8.7\generated-gradle-jars).
+2024-11-03T11:38:06.973-0300 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (D:\BookFinder\caches\transforms-4) has last been fully cleaned up 42 hours ago
+2024-11-03T11:38:06.973-0300 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] Artifact transforms cache (D:\BookFinder\caches\transforms-4) removing files not accessed on or after Sun Oct 27 11:37:05 BRT 2024.
+2024-11-03T11:38:07.407-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] Artifact transforms cache (D:\BookFinder\caches\transforms-4) cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.407-0300 [INFO] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (D:\BookFinder\caches\transforms-4) cleaned up in 0.434 secs.
+2024-11-03T11:38:07.407-0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Artifact transforms cache (D:\BookFinder\caches\transforms-4) was closed 0 times.
+2024-11-03T11:38:07.408-0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (D:\BookFinder\caches\modules-2)
+2024-11-03T11:38:07.408-0300 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifact.bin (D:\BookFinder\caches\modules-2\metadata-2.106\module-artifact.bin)
+2024-11-03T11:38:07.408-0300 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (D:\BookFinder\caches\modules-2\metadata-2.106\module-metadata.bin)
+2024-11-03T11:38:07.408-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (D:\BookFinder\caches\modules-2).
+2024-11-03T11:38:07.409-0300 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (D:\BookFinder\caches\modules-2) has last been fully cleaned up 42 hours ago
+2024-11-03T11:38:07.410-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (D:\BookFinder\caches\modules-2) cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.411-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (D:\BookFinder\caches\modules-2) [subdir: D:\BookFinder\caches\modules-2\resources-2.1] cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.411-0300 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] artifact cache (D:\BookFinder\caches\modules-2) [subdir: D:\BookFinder\caches\modules-2\resources-2.1] removing files not accessed on or after Fri Oct 04 11:37:05 BRT 2024.
+2024-11-03T11:38:07.412-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (D:\BookFinder\caches\modules-2) [subdir: D:\BookFinder\caches\modules-2\resources-2.1] cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.413-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (D:\BookFinder\caches\modules-2) [subdir: D:\BookFinder\caches\modules-2\files-2.1] cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.413-0300 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] artifact cache (D:\BookFinder\caches\modules-2) [subdir: D:\BookFinder\caches\modules-2\files-2.1] removing files not accessed on or after Fri Oct 04 11:37:05 BRT 2024.
+2024-11-03T11:38:07.668-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (D:\BookFinder\caches\modules-2) [subdir: D:\BookFinder\caches\modules-2\files-2.1] cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.669-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] artifact cache (D:\BookFinder\caches\modules-2) [subdir: D:\BookFinder\caches\modules-2\metadata-2.106] cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.669-0300 [INFO] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (D:\BookFinder\caches\modules-2) cleaned up in 0.26 secs.
+2024-11-03T11:38:07.669-0300 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] groovy-dsl (D:\BookFinder\caches\8.7\groovy-dsl) has last been fully cleaned up 42 hours ago
+2024-11-03T11:38:07.670-0300 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] groovy-dsl (D:\BookFinder\caches\8.7\groovy-dsl) removing files not accessed on or after Sun Oct 27 11:37:05 BRT 2024.
+2024-11-03T11:38:07.670-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] groovy-dsl (D:\BookFinder\caches\8.7\groovy-dsl) cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.671-0300 [INFO] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] groovy-dsl (D:\BookFinder\caches\8.7\groovy-dsl) cleaned up in 0.0 secs.
+2024-11-03T11:38:07.671-0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache groovy-dsl (D:\BookFinder\caches\8.7\groovy-dsl) was closed 0 times.
+2024-11-03T11:38:07.671-0300 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] kotlin-dsl (D:\BookFinder\caches\8.7\kotlin-dsl) has last been fully cleaned up 42 hours ago
+2024-11-03T11:38:07.671-0300 [INFO] [org.gradle.cache.internal.LeastRecentlyUsedCacheCleanup] kotlin-dsl (D:\BookFinder\caches\8.7\kotlin-dsl) removing files not accessed on or after Sun Oct 27 11:37:05 BRT 2024.
+2024-11-03T11:38:07.673-0300 [INFO] [org.gradle.cache.internal.AbstractCacheCleanup] kotlin-dsl (D:\BookFinder\caches\8.7\kotlin-dsl) cleanup deleted 0 files/directories.
+2024-11-03T11:38:07.673-0300 [INFO] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] kotlin-dsl (D:\BookFinder\caches\8.7\kotlin-dsl) cleaned up in 0.001 secs.
+2024-11-03T11:38:07.673-0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache kotlin-dsl (D:\BookFinder\caches\8.7\kotlin-dsl) was closed 0 times.
+2024-11-03T11:38:07.673-0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (D:\BookFinder\caches\journal-1)
+2024-11-03T11:38:07.673-0300 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (D:\BookFinder\caches\journal-1\file-access.bin)
+2024-11-03T11:38:07.674-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (D:\BookFinder\caches\journal-1).
+2024-11-03T11:38:07.674-0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (D:\BookFinder\caches\8.7\fileHashes)
+2024-11-03T11:38:07.674-0300 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (D:\BookFinder\caches\8.7\fileHashes\fileHashes.bin)
+2024-11-03T11:38:07.675-0300 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resourceHashesCache.bin (D:\BookFinder\caches\8.7\fileHashes\resourceHashesCache.bin)
+2024-11-03T11:38:07.675-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (D:\BookFinder\caches\8.7\fileHashes).
+2024-11-03T11:38:07.931-0300 [DEBUG] [org.gradle.cache.internal.VersionSpecificCacheCleanupAction] Processed version-specific caches at D:\BookFinder\caches for cleanup in 0.255 secs
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2024-11-03T11:38:08.020-0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [678da180-5d09-4ab6-9425-1c2e6541ff9e port:53954, addresses:[localhost/127.0.0.1]]
+2024-11-03T11:38:08.022-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-11-03T11:38:08.022-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-11-03T11:38:08.023-0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
