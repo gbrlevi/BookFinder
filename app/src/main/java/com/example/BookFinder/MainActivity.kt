@@ -1055,7 +1055,7 @@ fun SearchScreen(
                         state = true,
                         icon = false,
                         onQueryChanged = { query ->
-                            viewModel.searchBooks(query, "AIzaSyBAYtQglFE225WW_aoGg9NOnV0GmGIX28g") // Trigger search with query
+                            viewModel.searchBooks(query, "put here your api key") // Trigger search with query
                         }
                     )
                 },
@@ -1106,7 +1106,7 @@ fun SearchScreenCrud(
                         state = true,
                         icon = false,
                         onQueryChanged = { query ->
-                            viewModel.searchBooks(query, "AIzaSyBAYtQglFE225WW_aoGg9NOnV0GmGIX28g") // Trigger search with query
+                            viewModel.searchBooks(query, "put here your api key") // Trigger search with query
                         }
                     )
                 },
@@ -2730,8 +2730,8 @@ fun CommunityScreenWrapper(
     var isDataLoaded by remember { mutableStateOf(false) } // Track data loading state
 
     LaunchedEffect(Unit) {
-        viewModel.fetchRecentBooks("a", "AIzaSyBAYtQglFE225WW_aoGg9NOnV0GmGIX28g", 5)
-        viewModel.fetchMostRelevantBooks("a", "AIzaSyBAYtQglFE225WW_aoGg9NOnV0GmGIX28g", 5)
+        viewModel.fetchRecentBooks("a", "put here your api key", 5)
+        viewModel.fetchMostRelevantBooks("a", "put here your api key", 5)
 
         val db = DataSource()
         db.fetchLikedBooks(
